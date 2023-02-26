@@ -36,8 +36,9 @@ public class ChekoutPage extends BaseSeleniumPage {
         continueButton.click();
         return this;
     }
+
     //нажимаем кнопку FINISH
-    public  ChekoutPage finish_click() {
+    public ChekoutPage finish_click() {
         finishButton.click();
         return this;
     }

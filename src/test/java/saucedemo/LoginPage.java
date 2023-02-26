@@ -36,9 +36,4 @@ public class LoginPage extends BaseSeleniumPage {
         return error;
     }
 
-    /*public String get_error_message() {
-        String bodyText = driver.findElement(By.tagName("body")).getText();
-        return bodyText;
-    }*/
-
 }
